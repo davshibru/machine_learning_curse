@@ -44,6 +44,7 @@ plt.show()
 plt.figure(figsize=(12,12))
 plt.bar(df['Month'], df['Accidental deaths in USA: monthly, 1973 ? 1978'])
 plt.xticks(rotation=90)
+
 # рисуем всё сразу
 plt.show()
 

@@ -6,6 +6,7 @@ from sklearn.preprocessing import MinMaxScaler
 from sklearn.feature_selection import SelectKBest,chi2,RFE
 from sklearn.ensemble import RandomForestClassifier
 
+# Шаг 1
 
 df = pd.read_csv("data/Heart_Disease_Prediction.csv")
 print('Размер Dataframe:', df.shape)

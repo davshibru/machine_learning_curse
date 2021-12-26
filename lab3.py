@@ -16,13 +16,15 @@ import pandas as pd
 # exercise2Final = pd.Series(GROUP, index = exercise2)
 # exercise2Final = exercise2Final.reindex(exercise2)
 # print(exercise2Final)
+print()
 
+# ex 1 -----------------------------------------------------------------------------------------------------
 lastname = pd.Series(['Шибру', 'Лиров', 'Шакеев', 'Пенкин', 'Шибру', 'Лепров', 'Гемоверова'], name='lastname')
 name = pd.Series(['Давид', 'Зейнудин', 'Бектур', 'Сергей', 'Вераника', 'Лик', 'Гера'], name='name')
 FI = pd.DataFrame([lastname, name]).T
 print(FI)
 
-#ex2-----------------------------------------------------------------------------------------------------
+#ex 2 -----------------------------------------------------------------------------------------------------
 
 SEX = pd.Series(['male', 'male', 'male', 'male', 'female', 'male', 'female'], name='sex')
 GROUP = pd.Series(['IT-119', 'IT-119', 'BA-119', 'LAW-118', 'PED-119', 'BA-119', 'IT-108'], name='group')
